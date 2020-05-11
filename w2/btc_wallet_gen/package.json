@@ -1,0 +1,16 @@
+{
+  "name": "btc_wallet_gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bitcore-explorers": "^1.0.1",
+    "bitcoinjs-lib": "^5.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

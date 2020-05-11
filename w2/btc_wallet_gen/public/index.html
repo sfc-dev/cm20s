@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bitcoin wallet generator</title>
+  <script src="./bundle.js"></script>
+  <script src="./jquery-3.4.1.min.js"></script>
+  <script src="./main.js"></script>
+</head>
+<body>
+	<h2>Bitcoin wallet info</h2>
+	<p>address: <input id="address" type="text" size="42" readonly=""></p>
+	<p>private key: <input id="privateKey" type="text" size="60" readonly=""></p>
+
+	<h2>Generate a new bitcoin wallet</h2>
+	<button onclick="generate()">generate</button>
+
+	<h2>Recover your bitcoin wallet from private key</h2>
+	<p>private key: <input id="myPrivateKey" type="text" size="60"></p>
+	<button onclick="recover()">recover</button>
+
+	<h2>Get wallet balance</h2>
+	<p>address: <input id="myAddress" type="text" size="42"></p>
+	<p>balance: <input id="balance" type="text" size="20" readonly=""> BTC</p>
+	<button onclick="balance()">balance</button>
+</body>
+</html>
